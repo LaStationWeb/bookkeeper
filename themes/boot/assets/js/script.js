@@ -1,3 +1,4 @@
+/* Back to Top */
 $(document).ready(function(){ 
     $(window).scroll(function(){ 
         if ($(this).scrollTop() > 100) { 
@@ -11,3 +12,8 @@ $(document).ready(function(){
         return false; 
     }); 
 });
+/* 100% Viewport Height on Header */
+$(document).ready(function(){
+    $('.header').height($(window).height());
+    
+   })

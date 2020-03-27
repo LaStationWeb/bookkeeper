@@ -1,8 +1,17 @@
 ---
-title: "Home"
-description: "The Homepage Description"
-layout: index
+layout: home
+# Meta Data
+title: "Hero Framework 1"
+description: "A Perfectly Optimized Framework For Small Business Owners."
 keywords: "homepage keywords"
+# Section 1
+hero: "Hero Framework 1"
+hero_description: "100% PageSpeed and SEO Score. Works like a charm forever"
+h2: "Lorem ipsum dolor sit amet"
+h3: "Lorem ipsum dolor sit amet"
+# Images
+image1: "/img/placeholder.jpg"
+alt1: "Description of the image 1 on homepage"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris sit amet massa vitae. Faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Feugiat in ante metus dictum. Condimentum lacinia quis vel eros donec ac odio. Ut etiam sit amet nisl purus in mollis nunc. Cursus in hac habitasse platea. Amet consectetur adipiscing elit ut aliquam purus. Ullamcorper malesuada proin libero nunc. Faucibus pulvinar elementum integer enim. Eget nulla facilisi etiam dignissim. Purus sit amet volutpat consequat mauris. Mi bibendum neque egestas congue quisque egestas. Eget dolor morbi non arcu risus quis varius quam quisque. Quam viverra orci sagittis eu volutpat odio facilisis. Dolor morbi non arcu risus quis. Iaculis nunc sed augue lacus viverra vitae. Cras sed felis eget velit aliquet sagittis id consectetur. Laoreet id donec ultrices tincidunt.

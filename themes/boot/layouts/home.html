@@ -1,0 +1,25 @@
+{{ define "main" }}
+<header class="header">
+  <div class="overlay">
+    <div class="container">
+      <div class="header__textbox">
+        <h1 class="display-2">{{.Params.hero}}</h1>
+        <p class="py-1">{{.Params.hero_description}}</p>
+        <button class="btn btn-outline-secondary btn-lg">Learn More</button>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="home-1 py-8">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <img src="{{.Params.image1 }}" alt="{{.Params.alt1}}" class="home-1__image">
+      </div>
+      <div class="col-sm-6">
+        <h2 class="display-5">{{.Params.h2}}</h2>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

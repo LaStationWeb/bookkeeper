@@ -4,39 +4,29 @@ footer {
 .home {
     margin: 300px 0px;
 }
-#scroll {
-    position:fixed;
-    right:50px;
-    bottom:50px;
-    cursor:pointer;
-    width:50px;
-    height:50px;
-    background-color:black;
-    text-indent:-9999px;
-    display:none;
-    -webkit-border-radius:60px;
-    -moz-border-radius:60px;
-    border-radius:60px
+.header {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../../img/hero.jpg');
 }
-#scroll span {
-    position:absolute;
-    top:50%;
-    left:50%;
-    margin-left:-8px;
-    margin-top:-12px;
-    height:0;
-    width:0;
-    border:8px solid transparent;
-    border-bottom-color:#ffffff;
+.overlay {
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    background: rgba(244, 244, 244, 0.79);
+    top: 0;
+    left: 0;
 }
-#scroll:hover {
-    background-color:grey;
-    opacity:1;filter:"alpha(opacity=100)";
-    -ms-filter:"alpha(opacity=100)";
-}
-@media (max-width: 768px) {
-    #scroll {
-        right:10px;
-        bottom:40px;
+.header__textbox {
+    position: absolute;
+    top: 30%;
+    max-width: 768px;
+
+    & p {
+        font-size: 1.3rem;
     }
+}
+.home-1__image {
+    max-width: 100%;
 }
